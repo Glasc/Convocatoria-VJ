@@ -1,0 +1,42 @@
+.container {
+  width: min(80rem, 100%);
+  margin: 0 auto;
+}
+
+.flex {
+  &__jc-c {
+    justify-content: center;
+  }
+
+  &__jc-e {
+    justify-content: flex-end;
+  }
+
+  &__jc-s {
+    justify-content: start;
+  }
+
+  &__jc-sb {
+    justify-content: space-between;
+  }
+
+  &__ai-c {
+    align-items: center;
+  }
+
+  &__ai-s {
+    align-items: flex-start;
+  }
+
+  &__ai-e {
+    align-items: flex-end;
+  }
+
+  &__fd-e {
+    flex-direction: column;
+  }
+
+  &__fd-r {
+    flex-direction: row;
+  }
+}
